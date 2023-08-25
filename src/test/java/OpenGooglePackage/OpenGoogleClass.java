@@ -10,6 +10,7 @@ public class OpenGoogleClass {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.google.co.in");
+        driver.quit();
 
     }
 }
